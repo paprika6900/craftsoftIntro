@@ -4,6 +4,9 @@ The Introduction example of craftsoft
 Local Execution Instructions:
 run in commandline as: mvnw spring-boot:run 
 
+swagger should be running on http://localhost:8080/swagger-ui/index.html
+h2 console running on  http://localhost:8080/h2-console
+
 Design Choices:
 As this is a relatively small application I wrote the Junit tests in Post and did not apply TDD. 
 
