@@ -1,4 +1,4 @@
-package persistence;
+package com.test.taskManagement.persistence;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,10 +12,6 @@ import javax.sql.DataSource;
 import java.lang.invoke.MethodHandles;
 import java.sql.Connection;
 
-/**
- * This component is only created, if the profile {@code datagen} is active
- * You can activate this profile by adding {@code -Dspring.profiles.active=datagen} to your maven command line
- */
 @Configuration
 @Profile("datagen")
 public class DataGeneratorBean {
